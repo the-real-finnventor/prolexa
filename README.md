@@ -7,11 +7,11 @@ Insructions for Macos:
 
 Installation:
 ```
-$ pip3 install -U openai-whisper
-$ pip3 install --upgrade openai
-$ brew install ffmpeg
-$ git clone
-$ cd prolexa
+pip3 install -U openai-whisper
+pip3 install --upgrade openai
+brew install ffmpeg
+git clone git@github.com:the-real-finnventor/prolexa.git
+cd prolexa
 ```
 
 Edit:
@@ -23,5 +23,5 @@ Paste in your OpenAI API key that you can get it [here](https://platform.openai.
 
 Run:
 ```
-$ python3 prolexa.py
+python3 prolexa.py
 ```
