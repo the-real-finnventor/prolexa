@@ -18,7 +18,7 @@ Edit:
 ```
 ffmpeg -f avfoundation -list_devices true -i ""
 ```
-Find the number of the audio device you want to use to record. I use ` Built-in Microphone`.
+Find the number of the audio device you want to use to record. I use `Built-in Microphone`.
 ```
 open prolexa.py
 ```
