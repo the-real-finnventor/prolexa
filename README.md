@@ -3,7 +3,7 @@
 #### A virtual assistant using ChatGPT.
 ---
 ## Quickstart
-Insructions for Macos:
+Instructions for Macos:
 
 Installation:
 ```
@@ -18,12 +18,12 @@ Edit:
 ```
 ffmpeg -f avfoundation -list_devices true -i ""
 ```
-Find out what number the audio divice you want to use is.
+Find the number of the audio device you want to use to record. I use `Built-in Microphone`.
 ```
 open prolexa.py
 ```
 
-Paste in your OpenAI API key that you can get it [here](https://platform.openai.com/account/api-keys) to where it says sk-xxx
+Paste in your OpenAI API key that you can get it [here](https://platform.openai.com/account/api-keys) to where it says `sk-xxx`.
 
 Also change `:4` to `:` then your audio devce number
 
