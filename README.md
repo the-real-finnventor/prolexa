@@ -14,6 +14,22 @@ git clone git@github.com:the-real-finnventor/prolexa.git
 cd prolexa
 ```
 
+If you get errors like:
+```
+Cloning into 'prolexa'...
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+```
+
+Then try:
+```
+git clone git@github.com:the-real-finnventor/prolexa.git
+cd prolexa
+```
+
 Edit:
 ```
 ffmpeg -f avfoundation -list_devices true -i ""
